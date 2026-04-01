@@ -1,0 +1,72 @@
+body {
+    font-family: Arial;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-color: aquamarine;
+}
+
+.title {
+    font-size: 65px;
+    margin-top: 20px;
+}
+
+.subtitle {
+    color:blueviolet;
+    margin-bottom: 20px;
+    font-size:45px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+.map iframe {
+    width: 400px;
+    height: 250px;
+    border-radius: 10px;
+}
+
+.details {
+    text-align: left;
+    font-size: 18px;
+}
+
+.form-section {
+    margin-top: 30px;
+}
+
+form {
+    display: grid;
+    gap: 15px;
+    width: 300px;
+    margin: auto;
+}
+
+input, textarea {
+    padding: 10px;
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+
+textarea {
+    height: 100px;
+}
+
+button {
+    padding: 10px;
+    background: red;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: darkred;
+    padding-bottom: 60px;
+}
+

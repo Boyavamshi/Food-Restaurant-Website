@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            margin: 0;
+            height: 80vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background: linear-gradient(to right,orange,red);
+        }
+        .reg{
+            background-color: white;
+            padding: 30px;
+            border-radius: 10px;
+            text-align: center;
+
+        }
+        .container {
+    width: 400px;
+    margin: 50px auto;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+}
+.d {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+label {
+    width: 150px;   /* fixed width for alignment */
+}
+
+input {
+    flex: 1;        /* takes remaining space */
+    padding: 8px;
+}
+
+
+    </style>
+</head>
+<body>
+   <div class="container">
+     <form class="reg">
+        <h2>
+            Register
+        </h2>
+       <div class="d">
+         <label for="Full Name">Full Name:</label>
+        <input type="text" id="Full Name" name="Full Name">
+       </div><br>
+
+        <div class="d">
+            <label for="email">Email:</label>
+        <input type="email" id="email" name="email">
+        </div><br>
+
+       <div class="d">
+         <label for="password">Password:</label>
+        <input type="password" id="password" name="password">
+       </div><br>
+        <div class="d">
+            <label for="confirm password">Confirm Password:</label>
+            <input type="password" id="confirm password" name="confirm password"><br><br>
+        </div><br>
+        <button type="submit" style="border: solid; background-color: cadetblue;">Register</button>
+        <p>
+            Already have an account? <a href="Login.html" style="text-decoration: none;">Login</a>
+        </p>
+    </form>
+   </div>
+</body>
+</html>

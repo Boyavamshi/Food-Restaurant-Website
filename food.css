@@ -1,0 +1,82 @@
+.nav1{
+    display:flex;
+    flex-direction:row;
+    justify-content:flex-end;
+    align-content: end;
+    border: 1px solid;
+    border-color: #000000;
+   padding-top: 1%;
+   padding-bottom: 1%;
+   gap:7%;
+   font-size: 200%;
+   margin-top: 2%;
+   padding-right: 3%;
+   background-color: aqua;
+}
+.bod{
+    background: linear-gradient(to right,orange,red);
+   
+    height:100vh;
+    width: 100vw;
+    
+
+    
+}
+
+.bod1{
+    background-color: aqua;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.hi{
+    text-align: center;
+    color: white;
+    margin-top: 200px;
+    font-size: 200%;
+    
+}
+.sec{
+    align-items: center;
+    padding-top: 800px;
+    position: relative;
+    padding-left: 1700px;
+    padding-bottom: 20px;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    cursor: pointer;
+   
+    padding: 20px;
+}
+.container1{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    cursor: pointer;
+  
+  padding: 20px;
+   
+}
+.container2{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    cursor: pointer;
+  
+  padding: 20px; 
+}
+.container3{
+      display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    cursor: pointer;
+  
+  padding: 20px; 
+}
